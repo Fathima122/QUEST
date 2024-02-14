@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="JS jslib.js"></script>
+</head>
+<body>
+    
+    
+    <br>
+    <br>
+    <center>
+        <h1 >Registration Form</h1>
+        <!-- <form action="" -->
+  <label for="">name</label>
+  <input type="text" name="" id="n"><br><br>
+  <label for="">email</label>
+  <input type="email" name="" id="e"><br><br>
+  <label for="">phone</label>
+  <input type="number" name="" id="p"><br><br>
+  <input type="submit" name="" id="s" >
+
+<br><br>
+
+<table border="1px" width="200px">
+    <tr>
+        <th>name</th>
+        <th>email</th>
+        <th>phone</th>
+    </tr>
+ 
+</table>
+
+
+<!-- </form> -->
+</center>
+<script>
+    $(document).ready(function(){
+        $("#s").click(function(){
+            var a=$("#n").val();
+            var b=$("#e").val();
+            var c=$("#p").val();
+
+        $("table").append("<tr><td>"+a+ "</td><td>" +b+ "</td><td>"+c+"</td></tr>")  
+        var a=$("#n").val('');
+            var b=$("#e").val('');
+            var c=$("#p").val('');
+
+    })
+            
+
+        
+
+        
+
+        })
+    
+  </script>
+
+  
+    
+</body>
+</html>

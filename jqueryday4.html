@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="JS jslib.js"></script>
+</head>
+<body>
+    <p id="p">hii</p>
+    <button id="ch">chain</button>
+    <button id="q">que</button>
+    <button id="c">callback</button>
+    <div style="background-color: red;width: 100px;height: 100px;"></div>
+    
+    <script>
+        $(document).ready(function(){
+            $('#q').click(function(){
+                var div=$('div');
+                div.animate({height:'300px',opacity:'0.4'},'slow');
+                div.animate({height:'300px',opacity:'0.8'},'slow');
+                div.animate({height:'100px',opacity:'0.4'},'slow');
+                div.animate({height:'100px',opacity:'0.8'},'slow');
+            })
+
+            $("#c").click(function(){
+                $('div').hide("slow",function(){
+                    alert('my div is hided')
+
+                });
+               
+            });
+            $("#ch").click(function(){
+                $('#p').css("color",'red').slideUp(2000).slideDown(2000);
+            }) ;
+               })
+    </script>
+</body>
+</html>

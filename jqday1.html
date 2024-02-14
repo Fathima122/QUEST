@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="JS jslib.js"></script>
+</head>
+<body>
+    <h1 style="background-color: red;">welcome</h1>
+    <h1 id="m" style="background-color: blue;">welcome</h1>
+    <h1 class="v">qqqqqqqqqq</h1>
+    <p class="v">nnnnn</p>
+    <button>click</button>
+    <input type="text" name="" id="i">
+    <script>
+        $(document).ready(function(){
+            $("h1").click(function(){
+                // $(this).hide();
+                $("#m").hide();
+                // $("h1").hide();
+                // $(".v").hide();
+                $(this).hide();
+
+
+            });
+            $("#i").focus(function(){
+                $(this).css("background-color",'blue')
+                $(".v").css("background-color",'blue')
+
+            });
+
+        });
+    </script>
+
+    <!-- <button id="h">hide</button> -->
+    
+    <!-- <button id="s">show</button> -->
+    <!-- <button id="t">toggle</button> -->
+    <!-- <div id="d1" style="background-color: red;width: 100px;height: 100px;"></div><br> -->
+    
+    <!-- <div id="d1" style="background-color: red;width: 100px;height: 100px;display: none;"></div><br> -->
+    <!-- <div id="d2" style="background-color: red;width: 100px;height: 100px;"></div><br> -->
+    <!-- <div id="d2" style="background-color: red;width: 100px;height: 100px;display: none;"></div><br> -->
+    <!-- <div id="d3" style="background-color: red;width: 100px;height: 100px;"></div><br> -->
+    <!-- <div id="d3" style="background-color: red;width: 100px;height: 100px;display: none;"></div><br> -->
+<!--   
+    <script>
+        $(document).ready(function(){
+            $("#h").click(function(){
+                $('#d1').hide()
+                $('#d2').hide('slow')
+                $('#d3').hide(3000)
+
+            })
+       
+
+        $("#s").click(function(){
+                $('#d1').show()
+                $('#d2').show('slow')
+                $('#d3').show(3000)
+
+            })
+            $("#t").click(function(){
+                $('#d1').toggle()
+                $('#d2').toggle('slow')
+                $('#d3').toggle(3000)
+
+            })
+            
+      
+            
+
+        });
+         -->
+        
+          
+        
+   
+
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="JS jslib.js"></script>
+</head>
+<body>
+    <button id="c">click</button>
+    <div style="background-color: red;height: 100px;width: 100px;position: absolute;"></div>
+    <script>
+        $(document).ready(function(){
+            $("#c").click(function(){
+                $('div').animate({
+                    left:'1390px'},'slow');
+                $('div').animate({left:'1390px',bottom:'70px',height:'300px'},'slow')
+                $('div').animate({top:'50px',height:'100px'},'slow',function(){
+                    $('div').css('background-color','blue')
+
+                })
+                
+                $('div').animate({left:'10px'},'slow')
+               
+                
+            })
+
+        })
+    </script>
+    
+</body>
+</html>

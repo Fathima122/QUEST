@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="JS jslib.js"></script>
+   
+<!--     
+    <style>
+        
+        #c,#d{
+            background-color: blueviolet;
+            padding: 5px;
+                }
+            #d{
+                display: none;
+                padding: 50px;
+            }
+    </style> -->
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+    <!-- <button id="r">remove</button>
+    <button id="e">empty</button>
+    <p>jjjjjjjjjjjj</p>
+ <div style="background-color: red; height: 200px;">
+    <p>hhhhhhhhhhhh</p>
+    <h1>mmm</h1>
+    <p>jjjjjjjjjjjj</p>
+ </div>
+ <script>
+    $(document).ready(function(){
+        $('#r').click(function(){
+            $('div').remove()
+        })
+
+
+        $('#e').click(function(){
+            $('div').empty()
+        })
+    })
+
+ </script>  -->
+ <!-- <h1>hiiiiiiii</h1>
+
+<script>
+      $(document).ready(function(){
+        $('h1').on({
+            mouseenter:function(){
+                $(this).css("background-color",'lightgray')  ;
+                      },
+            mouseleave:function(){
+                $(this).css("background-color","lightblue");
+
+            },
+            click:function(){
+                $(this).css("background-color","yellow");
+
+            },
+            dblclick:function(){
+                $(this).css("background-color","pink");
+
+            },
+
+        })
+        })
+
+
+</script> -->
+<!-- <button>stop</button>
+<div id="c">click me</div>
+<div id="d">my details</div>
+
+<script>
+     $(document).ready(function(){
+        $('#c').click(function(){
+            $('#d').slideDown(3000)
+            // $('#d').slideUp(3000)
+            // $('#d').slideToggle(3000)
+        });
+        $("button").click(function(){
+            $("#d").stop()
+            
+        })
+    });
+
+</script> -->
+
+<button id="c">click</button>
+<div style="background-color: green; height: 100px;width: 100px;position: absolute;"></div>
+<script>
+    $(document).ready(function(){
+        $("#c").click(function(){
+            $("div").animate({
+                // left:'250px',
+                // opacity:'.3',
+                // height:'+350px'
+                // height:'+=350px'
+            },'slow')
+
+        })
+    })
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

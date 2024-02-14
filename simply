@@ -1,0 +1,1175 @@
+a=int(input('enter a no.'))
+temp=a
+count=0
+while temp>0:
+    temp%10
+    temp=temp//10
+    count+=1
+temp=a
+sum=0
+while temp>0:
+    rem=temp%10
+    x=1
+    pro=1
+    while x<=count:
+        pro=pro*rem
+        x+=1
+    sum=sum+pro
+    temp=temp//10 
+if sum==a:
+    print('armstrong')
+else:
+    print('not armstrong')    
+    
+
+# num=int(input('enter a no.'))
+# temp=num
+# count=0
+# while temp>0:
+#     temp%10
+#     temp=temp//10
+#     count+=1
+# temp=num
+# sum=0
+# while temp>0:
+#     rem=temp%10
+#     x=1
+#     pro=1
+#     while x<=count:
+#         pro=pro*rem
+#         x+=1
+#     sum=sum+pro
+#     temp=temp//10
+# if  num==sum:
+#     print('armstrong')
+# else:
+#     print('not armstrong')    
+
+# n=int(input('enter a no'))
+# product=1
+# while n>0:
+#     product=product*n%10
+#     n=n//10
+# print(product)
+
+
+# n=int(input('enter a no'))
+# sum=0
+# while n>0:
+#     rem=n%10
+#     sum=sum+rem
+#     n=n//10
+# print(sum)
+
+
+# a=int(input('enter a no.'))
+# product=1
+# while a>0:
+#     rem=a%10
+#     product=product*rem
+#     a=a//10
+# print(product)
+
+
+# a=int(input('enter a no.'))
+# reverse=0
+
+# while a>0:
+#     rem=a%10
+#     a=a//10
+#     reverse=reverse*10+rem
+# print(reverse)
+
+# name=int(input('enter name'))
+# print('my name is:',name)
+
+# a=0
+# b=1
+# d=int(input('enter a no'))
+# while d>a:
+#     print(a)
+#     c=a+b
+#     a=b
+#     b=c
+
+# a=1
+# while a<8:
+#     if a==12:
+#         break
+#     print(a)
+#     a+=1
+# else:
+#     print('hello')
+
+# a=int(input('enter a no.'))
+# b=2
+# while a>b:
+#     if a%b==0:
+#         print('it is not prime no.')
+#         break
+#     b+=1
+# else:
+#     print('it is a prime no.')
+# start=2
+# stop=100
+# while start<=stop:
+#     if start%2==0:
+#         print(start)
+#     start+=1
+
+# for i in range(10):
+#     print(i)
+
+# for i in range(1,10):
+#     print(i)
+# for i in range(1,10,2):
+#     print(i)
+# a=18
+# for i in range(1,20):
+#     print(i)
+    
+# num1=int(input('enter a no.'))
+# num2=int(input('enter a no.'))
+# for i in range(num1,num2):
+#     if num1%2==0:
+#         print(num1)
+#     num1+=1
+# a=int(input('enter a no.'))
+# b=int(input('enter a no.'))
+# while a<=b:
+#     if a%2==0:
+#         print(a)
+#     a+=1
+# num=int(input('enter a no.'))
+# for i in range(1,11):
+#     num2=num*i
+#     # print(num2)
+#     print(i,'*',num,'=',num2)
+
+# a='hai'
+# sum=''
+# for i in (a):
+#     print(i)
+#     sum=i+sum
+#     print(sum)
+# a='kite'
+# sum=''
+# for i in (a):
+#     sum=i+sum
+#     print(sum)
+
+# a=int(input('enter a no.'))
+# sum=0
+# pro=1
+# while a>0:
+#     rem=a%10
+#     if rem%2==0:
+#         sum=sum+rem
+#     else:
+#         pro=pro*rem
+#     a=a//10
+
+# print(sum,pro)
+# a=int(input('eneter a no'))
+# sum=0
+# pro=1
+# while a>0:
+#     rem=a%10
+#     if rem%2==0:
+#         sum=sum+rem
+#     else:
+#         pro=pro*rem
+#     a=a//10
+
+# print(sum)
+# print(pro)
+
+# a=int(input('enter a no.'))
+# for i in range(2,a):
+#     # print(i)
+#     if a%i==0:
+#         print('not a prime')
+#         break
+# else:
+#     print('prime')
+# a=int(input('enter a no.'))
+# b=2
+# while a>b:
+#     if a%b==0:
+#          print('not a prime')
+#          break
+#     b+=1
+# else:
+#     print('prime')
+# a=int(input('enter a no.'))
+# pro=1
+# while a>0:
+#     rem=a%10
+#     pro=pro*rem
+#     a=a//10
+# print(pro)
+
+# lower=int(input('enter a no.'))
+# upper=int(input('enter a no.'))
+# for i in range(lower,upper+1):
+#     if i>1:
+#         for num in range(2,i):
+#             if i%num==0:
+#                 break
+#         else:
+#             print(i)
+
+
+
+
+
+# lower=int(input('enter a no.'))
+# upper=int(input('enter a no.'))
+# for i in range(lower,upper+1):
+#     if i>1:
+#         for num in range(2,i):
+#             if i%num==0:
+#                 break
+#         else:
+#             print(i)
+# a=int(input('enter a no.'))
+# if a>2:
+#     for i in range(2,a):
+#     # print(i)
+#         if a%i==0:
+#             print('not a prime')
+#             break
+#     else:
+#         print('prime')
+
+# sum=0
+# num=1
+# while num<=10:
+#     sum=sum+num
+#     num+=1
+# print(sum)
+
+# a=int(input('enter a no'))
+# rev=0
+# while a>0:
+#     rem=a%10
+#     rev=rev*10+rem
+#     a=a//10
+# print(rev)
+
+# a='dfghjkjhgfgh'
+# rev=''
+# for i in a:
+#     rev=i+rev
+# print(rev)
+
+
+# a=1234
+# print(a)
+
+# a=0
+# b=1
+# d=int(input('enter a no'))
+# while d>a:
+#     print(a)
+#     c=a+b
+#     a=b
+#     b=c
+
+
+# a='python'
+# print(type(a))
+# print(a[0])
+# print(len(a))
+# print(a[len(a)-1])
+# print(a[1:4:2])
+#
+# a='DFGHJKJHGFYUJ&^^HG%756789'
+# print(a.capitalize())
+# print(a.title())[]
+# print(a.upper())
+# print(a.lower())
+# print(a.swapcase())
+
+
+# a='552edfrghSDCFVGHJ%$$'
+# print(a.isupper())
+# print(a.islower())
+# print(a.isalpha())
+# print(a.isnumeric())
+# print(a.isalnum())
+
+# A='abcde'
+# B='uvwxyz'
+
+
+
+# str1=input('enter string')
+# # print(str1)
+# middle=int(len(str1)/2)
+# # print(middle)
+# print(str1[middle-3:middle+3])
+
+# middle=int(len(A)/2)
+# print(A[middle])
+# middle1=int(len(B)/2)
+# print(B[middle])
+# len1=len(A)//2
+# print(A[len1])
+# len2=len(B)//2
+# print(B[len2])
+# print(A[0]+B[0]+A[len1]+B[len2]+A[len(A)-1]+B[len(B)-1]) 
+
+# string1='Abc'
+# string2='xyzj'
+# string3=''
+# length=min(len(string1),len(string2))
+# for i in range (length):
+#     string3+=string1[i]+string2[-(i+1)]
+# print(string3)
+
+# a='bcd'
+# b='sfhji'
+# d=b[::-1]
+# print(d)
+# length=min(len(a),len(b))
+# c=''
+# for i in range(length):
+#     c+=a[i]+d[i]
+# c+=a[length:]+d[length:]
+# print(c)
+
+# a='gdhjksk'
+# # l=2
+# c=a[2:]
+# print(c)
+
+# # a='ahij'kloAA'
+# countv=0
+# for i in a:
+#     if i in 'aeiouAEIOU':
+#         countv+=1
+#     # else:
+#     #     print('not vowel')
+# print(countv)'
+
+# A=input('enter a string')
+# numc=0
+# sum=0
+# for i in A:
+#     if i.isnumeric():
+#         sum=sum+int(i)
+#         numc+=1
+# print(sum)
+# print(numc)
+
+# a='restart'
+# print(a.replace('r','j'))
+
+# a='abcd'
+# b='jkl'
+# b=b[::-1]
+# c=''
+# l=min(len(a),len(b))
+# for i in range(l):
+#     c+=a[i]+b[i]
+# c+=a[l:]+b[l:]
+# print(c)
+
+# a='ending'
+# l=len(a)
+# c=(a.replace('ing','ly'))
+
+# if 'ing'in a:
+#     print(c)
+# elif l>=3:
+#     a+='ing'
+#     print(a)
+# else:
+#     print(a)
+
+# a=input('enter a string')
+# b=''
+# if len(a)<2:
+#     b=print(a)
+# else:
+#     b=a[:2]+a[-2:]
+#     print(b)
+# a=input('enter a string')
+# b=(a.split())
+# for i in b:
+#     if len(i)%2==0:
+#         print(i)
+
+
+# a='456789098fghhjkASDFGH%&*jj'
+# sum=0
+# for i in a:
+#     if i.isnumeric():
+#         # print(i)
+#         sum=sum+int(i)
+# print(sum)
+
+
+# a=input('enter a string')
+# b=a.rfind('ing')
+# l=len(a)
+# if b>=0:
+#     output=a[:b]+'ly'
+#     print(output)
+# elif l>=3:
+#     output=a+'ing'
+#     print(output)
+# else:
+#     print(a)
+
+# a='have a nice day'
+# b=a.split()
+# print(b)
+# for i in b:
+#     if len(i)%2==0:
+#         print(i)
+
+# a=input('enter a string')
+# countv=0
+# for i in a:
+#     if i in 'aeiouAEIOU':
+#         countv+=1
+# print(countv)
+
+
+# a='hello    world'
+# print(a.replace('    ',''))
+
+# a=input('enter a string')
+# b=a.lower()
+# print(b)
+# a=e=i=o=u=False
+# for i in b:
+#     if i=='a':
+#         a=True
+#     elif i=='e':
+#         e=True
+#     elif i=='i':
+#         i=True
+#     elif i=='o':
+#         o=True
+#     elif i=='u':
+#         u=True
+# if a and e and i and o and u:
+#     print('all vowels')
+# else:
+#     print('no vowels')
+
+# a='sachin'
+# l=a.swapcase()
+# print(l)
+
+# a='the animal has four eye'
+# b=a.split()
+# output=''
+# # sum=''
+# for i in b:
+#     output=i.capitalize()
+#     # sum+=output
+#     print(output,end='  ')
+
+
+
+
+# while True:
+#     option=int(input('enter the option 1-add,2-sub,3-mul,4-div,5-exit'))
+#     if option<6:
+#         if option==1:
+#             print('add')
+#         elif option==2:
+#             print('sub')
+#         elif option==3:
+#             print('mul')
+#         elif option==4:
+#             print('div')
+#         elif option==5:
+#             # print('exit')
+#             break
+#     else:
+#         print('invalid')
+
+
+
+# student={'name':'john','age':25,'courses':['math','science']}
+# print(student)
+
+# print(student['name'])
+# print(student.get('name1','not found'))
+# student['name']=555555
+
+
+# del student['age']
+# print(student.values())
+# print(student.items())
+
+# for i in student:
+#     print(i)
+
+# for i in student.items():
+#     print(i)
+
+# a={'hari':90,'sanju':78,'ramya':65,'ravi':95}
+# # print(a)
+# # print(sorted(a))
+# # print(sorted(a.values()))
+# print(sorted(a.keys()))
+# # print(sorted(a.items()))
+# # print(sorted(a.values(),reverse=True))
+
+# a=[1,2,3,4,5]
+# b=[100,200,300,564,6898]
+# c={}
+# for i in range (5):
+#     c[a[i]]=b[i]
+# print(c)
+
+
+# a=int(input('ENTER A NO.'))
+# b={}
+# for i in range(1,a+1):
+#     b[i]=i*i
+#     print(b)
+
+
+#from a list of numbers, move zwero to the end of list
+
+# a=[1,6,3,0,6,4,0]
+# for i in a:
+#     if i==0:
+#         a.remove(i)
+#         a.append(i)
+# print(a)
+
+
+# while True:
+#     choice=int(input('enter choice 1-add 2-sub 3-mul 4-div 5-exit'))
+#     if choice<5:
+#         if choice==1:
+#             print('add')
+#         elif choice==2:
+#             print('sub')
+#         elif choice==3:
+#             print('mul')
+#         elif choice==4:
+#             print('div')
+#     elif choice==5:
+#         break
+#     else:
+#         print('invalid')
+
+
+# pb={}
+# while True:
+#     sub={}
+#     choice=int(input('''enter choice
+#                      1-add
+#                      2-view
+#                      3-update
+#                      4-delete
+#                      5-exit'''))
+#     if choice==1:
+
+#         name=input('enter your name')
+#         email=input('enter your email')
+#         phno=input('enter your phn no')
+#         print(sub)
+#         sub['name']=name
+#         sub['email']=email
+#         sub['phno']=phno
+#         print(sub)
+#         pb[name]=sub
+#         print(pb)
+#     elif choice==2:
+#         print(pb)
+#     elif choice==3:
+#         name=input('enter name to update')
+#         val=int(input('''enter 1-name
+#                                2-email
+#                                3-phno'''))
+#         if val==1:
+#             newname=input('enter name to update')
+#             pb[name]['name']=newname
+#             nn=pb.pop(name)
+#             pb[newname]=nn
+#         elif val==2:
+#             newemail=input('enter newemail to update')
+#             pb[name]['email']=newemail
+#         elif val==3:
+#             newphn=input('enter newphn to update')
+#             pb[name]['phno']=newphn
+#     elif choice==4:
+#         name=input('enter name to delete')
+#         if name in pb:
+#             del pb[name]
+#         else:
+#             print('not found')
+#     elif choice==5: 
+#         break
+#unique no.s  
+# a='malayalam'
+# for i in a:
+#     count=0
+#     for j in a:
+#         if i==j:
+#             count+=1
+#     # print(count)
+#     if count==1:
+#         print(i)
+
+
+
+# x=int(input('enter ur limit :'))
+# l=[]
+# for i in range(x):
+#     a=int(input('enter ur elements :'))
+#     if a ==0:
+#         break
+#     if a%2==0:
+#         if a not in l:
+#             l.append(a)
+# if len(l)>0:
+#     print(l)
+#     c=(len(l))
+#     avg=sum(l)/c
+#     print(avg)
+
+
+
+
+# pb={}
+# while True:
+#     choice=int( input('''enter choice
+#                       1-add
+#                       2-view
+#                       3-update
+#                       4-delete
+#                       5-exit'''))
+#     if choice==1:
+#         name=input('enter your name')
+#         email=input('enter ur email')
+#         phno=int(input('enter your phno'))
+#         sub={}
+#         sub['name']=name
+#         sub['email']=email
+#         sub['phno']=phno
+#         pb[name]=sub
+#         # print(pb)
+#     elif choice==2:
+#         print(pb)
+#     elif choice==3:
+#         name=input('enter ur name to update')
+#         val=input('''enter 1-name
+#                   2-email
+#                   3-phno''')
+#         if val=='1':
+#             newname=input('enter new name to update')
+#             pb[name]['name']=newname
+#             nn=pb.pop(name)
+#             pb[newname]=nn
+#         elif val=='2':
+#             newemail=input('enter  new email to update')
+#             pb[name]['email']=newemail
+#         else:
+#             newphno=input('enter new phno to update')
+#             pb[name]['phno']=newphno
+#     elif choice==4:
+#         name=input('enter name to delete')
+#         if name in pb:
+#             del pb[name]
+#     elif choice==5:
+#         break
+
+
+
+# a={'name':'manju','b':'11','c':'eleventh'}
+# g={'name1':'renju','b':'3456','c':'tenth'}
+# c={}
+
+# d3=a.copy()
+# d3.update(g)
+# for i in a:
+#     if i in g:
+#         d3[i]=a[i]+g[i]
+# print(d3)
+  
+# for i in a:
+#     for j in g:
+#         if i==j:
+#             c[i]=a[i]+g[j]
+#         if j not in c:
+#             c[j]=g[j]
+#     if i not in c:
+#         c[i]=a[i]
+# print(c)
+
+
+# a=input('enter a string')
+# for i in a[1::2]:
+#     print(i)
+
+# list1=[10,20,[300,400,[5000,6000],500],30,40]
+# # list1[2][2].append(7000)
+# print(list1)
+
+# a=input('enter a string')
+# output=[]
+# temp=a.split()
+# for i in temp:
+#     if any(ch.isalpha()for ch in i)and any(ch.isdigit() for ch in i):
+#         output.append(i)
+# print(output)
+
+# a=2,8,0,[3,9],'ki',{1:2}
+# print(a)
+# print(type(a))
+# print(a[3])
+
+# a=5
+# b=6
+# a,b=b,a
+# print(a)
+# print(b)
+
+# a=()
+# print(type(a))
+
+# a={7,9,5,9,9.5,'jii',(5,9),[9,79]}
+
+# print(a)
+# print(type(a))
+
+# a=set()
+# a=str()
+# a=dict()
+# a='jii'
+# a=list()
+# a=tuple()
+# print(a)
+# print(type(a))
+
+# a='hello shjjhklk juxdh'
+# a=890.8
+# a=[8,0,9]
+# a={2:9,8:7}
+# n=a.items()
+# m=set(n)
+# print(m)
+# a=(2,3)
+# c=set(a)
+# print(c)
+
+
+# a={3,5,8}
+# a.add([3])
+# a.update([2,5,6])
+# print(a)
+\
+
+
+# a.add('python jhghjlk')
+# a.update('python hgujk')
+# print(a)
+
+# a.add({3:7})
+# a.update({2:7,5:7})
+# print(a)
+
+# a.add((7,9))
+# a.update((7,9))
+# print(a)
+
+# a.add({4,6})
+# a.update({3,5,'hiuji',(9,2)})
+# print(a)
+
+# a.remove(8)
+# # print(a)
+# a.discard(7)
+# print(a)
+
+# a={1,3,4,6,8,88}
+# b={4,6,7,12,3}
+# print(a|b)
+# print(a&b)
+# print(a-b)
+# print(a^b)
+
+
+# nos={1,2,3,4,5,6,7,8,9,10}
+# even={2,4,6,8,10} 
+# odd={1,3,5,7,9}
+# print(nos.isdisjoint(even))
+# print(even.issubset(nos))
+# print(even.issuperset(nos))
+
+# a={}
+# print(a)
+# print(type(a))
+# a=set()
+# print(a)
+# print(type(a))
+
+# a={2,4}
+# a*3
+# print(a)
+
+# a=('ch',)
+# for i in range(2):
+#     a=(a,)
+#     print(a)
+
+# a,b=2,3,4
+# print(a,b)
+
+# a=(1,2)
+# b=(3,4)
+# b=a+b
+# print(b)
+
+# def details(n,p):
+#     print('my name is ',n ,'my place is ',p)
+# details(p='anu',n='ernklm')
+# details(n='anuuu',p='ernklmla')
+
+# a=input('enter string')
+# d={}
+# for i in a:
+#     d[i]=0
+# for i in a:
+#     d[i]=d[i]+1
+#     print(d)
+# for i in a:
+#     if d[i]==1:
+#         print(i)
+
+
+# a=input('enter  STRING')
+# lowerc=0
+# upperc=0
+# numericc=0
+# specialc=0
+# for i in a:
+#     if i.isupper():
+#         upperc+=1
+#     elif i.islower():
+#         lowerc+=1
+#     elif i.isnumeric():
+#         numericc+=1
+#     else:
+#         specialc+=1
+# print(upperc)
+# print(lowerc)
+# print(numericc)
+# print(specialc)
+
+# a='fghj'
+# print(a[::-1])
+
+
+
+# file handling
+
+# file=open('anu.txt')
+# file=open('anu.txt','r')
+# file=open('anu.txt','w')
+
+
+# reading 
+
+# file=open('anu.txt','r')
+# value=file.read(5)
+# print(value)
+
+# readline
+
+# file=open('anu.txt','r')
+# # value=file.readlines()
+# # print(value)
+# value=file.readline()
+# print(value)
+
+
+# file=open('anu.txt','r')
+# value=file.read(30)
+# print(value)
+# value1=file.read(40)
+# print(value1)
+# file.close()
+
+# file=open('anu.txt','r')
+# value=file.read()
+# print(value)
+
+# value1=file.readline()
+# print(value1)
+# value2=file.readline()
+# print(value2)
+# value3=file.readline()
+# print(value3)
+# file.close()
+
+# file=open('anu.txt','r')
+# # value=file.readline()
+# # print(value)
+# str=""
+# while str:
+#     str=file.readline()
+#     print(str)
+
+# f1=open('fil1.txt','w')
+# f1.write('welcome to fathis lectures')
+# print(f1.read())
+# data=f1.read()
+# print(data)
+
+# f1=open('fil1.txt','r')
+# f1.write('students')
+# for i in f1:
+#     print(i)
+
+
+# print(data[0:1])
+
+
+# ooooooooooooooooooooooooooooooooooooooooooooooooooppppppppppppppppppppppppppppppppppppppppppppsssssssssssssssssssssssssssss
+
+
+
+
+# class Father:
+#     def __init__(self):
+#         print('iam father')
+
+#     def work(self):
+#         print('can walk')
+
+# class Mother:
+#     # def __init__(self):
+#     #     print('iam mother')
+
+#     def multitasking(self):
+#         print('supermom')
+
+# class Child(Mother,Father):
+#     # def __init__(self):
+#     #     print('iam child')
+
+#     def study(self):
+#         print('can study')
+
+# anu=Child()
+# anu.multitasking()
+# anu.work()
+# john=Father()
+
+# class Students:
+#     pass
+#     def __init__(self,n,a,g):
+#         self.name=n
+#         self.age=a
+#         self.grade=g
+
+# ammu=Students('ammoos',13,87)
+# print(ammu.name)
+# print(ammu.age)
+# print(ammu.grade)
+
+
+# class Rectangle:
+#     def __init__(self,l,w):
+#         self.length=l
+#         self.width=w
+#     def area(self):
+#        return self.length*self.width
+#     def perimeter(self):
+#         return 2*(self.length+self.width)
+#     def display(self):
+#         print(self.length)
+#         print(self.width)
+#         print(self.area())
+#         print(self.perimeter())
+# # rec1=Rectangle(10,20)
+# # rec1.display()
+# class Parallelopipe(Rectangle):
+#     def __init__(self,l,w,h):
+#         self.height=h
+#         Rectangle.__init__(self,l,w)
+#     def volume(self):
+#         print (self.length*self.width*self.height)
+# par1=Parallelopipe(10,20,30)
+# par1.display()
+# par1.volume()
+
+
+# # yt
+# class Car_Design:
+#     pass
+# car1=Car_Design()
+# car2=Car_Design()
+# print(type(car1))
+# print(type(car2 ))
+
+
+# class Person:
+#     name='john'
+#     age=13
+#     country='Indiz'
+# # persom1=Person()
+# # print(persom1.age)
+# # delattr(persom1,'age')
+# # print(persom1.age)
+# # x=getattr(persom1,'age','not')    
+# # print(x)
+# # # print(persom1.age)
+# # delattr(Person,'country')
+# # print(Person.country)
+# # delattr(Person,'country')
+# # print(Person.country)
+# setattr(Person,'age1',14)
+# x=getattr(Person,'age1','not present')
+# print(x)
+
+
+# issubclass()
+
+
+# class Parent:
+#     age=2
+# class Child(Parent):
+#     age=1
+# x=issubclass(Parent,Child)
+# print(x)
+
+# super()
+# class Parent:
+#     def __init__(self,txt):
+#         self.text=txt
+#         print('pppppppppppppp')
+#     def printtext(self):
+#         print(self.text)
+# class Parent2():
+#     def __init__(self,txt):
+#         print('p22222222222222222')
+#         super().__init__(txt)
+#         # Parent(self).__init__(txt)
+#     def printtext(self):
+#         print('welcome')
+#     def show(self):
+#         print('python')
+#         super().printtext()
+# class Child(Parent,Parent2):
+#     def __init__(self,txt):
+#         print('childdd')
+#         super().__init__(txt)
+#     def show(self):
+#         print('hiiii')
+#         super().printtext()
+
+# # anu=Parent('iam anu')
+# # anu.printtext()
+# # appu=Parent2('iam appu')
+# # appu.printtext()
+# # appu.show()
+# ampu=Child('iam ampu')
+# ampu.show()
+
+
+
+# from abc import ABC,abstractmethod
+
+
+# class Polygon(ABC):
+#     @abstractmethod
+#     def area(self):
+#         pass
+#     def hii(self):
+#         print('hello')
+# class Rectangle(Polygon):
+#     def mymthd(self):
+#         print('myyy')
+#     def area(self):
+#         print('areaa')
+# book=Rectangle()
+# book.area()
+# a=Polygon()
+#                                            ;;;;;;;;;;;;;;;=======RG==============''''''
+
+# import re
+# txt='Johny had a little lamp in the Country  345678 #$%'
+# a=re.findall('a',txt)
+# a=re.findall('567',txt)
+# print(a)
+
+# b=re.findall('[a-k]',txt)
+# b=re.findall('[A-Z]',txt)
+# b=re.findall('[2-7]',txt)
+
+# b=re.findall('[a-Z]',txt)  error
+# print(b)
+
+# c=re.findall('[567]',txt)
+# c=re.findall('[the]',txt)
+# print(c)
+
+# d=re.findall('^J',txt)
+# d=re.findall('^The',txt)
+# print(d)
+
+# e=re.findall('[^Johny]',txt)
+# e=re.findall('[^eth]',txt)
+# print(e)
+
+# f=re.findall('%$',txt)
+# f=re.findall('the$',txt)
+# print(f)
+
+# g=re.findall('it{2}',txt)
+# g=re.findall('lit{2}',txt)
+# print(g)
+
+# h=re.findall('\AJohny',txt)
+# h=re.findall('\AJ  ',txt)
+# print(h)
+
+
+
+# [[[[[[[[[[[[[[[[[[[[[[[[[[[[search]]]]]]]]]]]]]]]]]]]]]]]]]]
+# txt='The r%ain in Spain'
+# a=re.search('ai',txt)
+# a=re.search('a',txt)
+# a=re.search('in',txt)
+# print(a)
+
+# b=re.search(r'\br\w',txt)
+# b=re.search(r'\br\w+',txt)
+# print(b)
+# print(b.start())
+# print(b.string)
+# print(b.group())
+# print(b.span())
+
+
+# t='the 456rain 89in 4s7pain $%4#'
+# a=re.findall('\D',t)
+# b=re.findall('\W',t)
+# c=re.findall('#\Z',t)
+# c=re.findall('$\Z',t)
+# d=re.findall('\s',t)
+# d=re.findall('\S',t)
+# print(d)
+# print(a)
+# print(b)
+# print(c)
+
+# for i in b:
+#     if i in a:
+#         a.remove(i)
+# print(a)
+
+

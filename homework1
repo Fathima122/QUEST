@@ -1,0 +1,15 @@
+a=2**3
+print(a)
+a=('joy')
+b=8.9
+a=True
+print(a-b)
+print(type(a))
+print("Hello world")
+a=10
+b=15
+c=a
+a=b
+b=c
+print(a)
+print(b)

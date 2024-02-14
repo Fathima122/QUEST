@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="JS jslib.js"></script>
+</head>
+<body>
+    <!-- <p >hello <b>hi</b> </p>
+    <input type="text" name="" id="i">
+    <a href=""></a>
+    <button id="t">Text</button>
+    <button id="h">html</button>
+    <button id="v">val</button>
+    <button id="a">Atter</button> -->
+    <p>welcome</p>
+    <button id="ap">append</button>
+    <button id="pr">pre</button>
+    <button id="af">after</button>
+    <button id="be">before</button>  
+
+    <script>
+        $(document).ready(function(){
+        //     $("#t").click(function(){
+        //         // var c=$("p").text()
+        //         // alert (c)
+        //         $("p").text("<b>welcome</b>")
+
+        //     });
+
+        //  $("#h").click(function(){
+        //         var c=$("p").html()
+        //         alert (c)
+        //         // $("p").html("<b>welcome</b>")
+
+        //     });
+
+        //     $("#v").click(function(){
+        //         var c=$("#i").val()
+        //         alert (c)
+        //         // $("#i").val("mmmmm")
+
+        //     });
+        //     $("#a").click(function(){
+        //         var c=$("#i").attr("id")
+        //         var c=$("#i").attr("type")
+        //         alert (c)
+        //         // $("#i").attr("type","radio")
+
+        //     });
+        // });
+
+
+            $("#ap").click(function(){
+                $('p').append("<b>hi</b>")
+            });
+
+            $("#pr").click(function(){
+                $('p').prepend("<b>hi</b>")
+            });
+            $("#af").click(function(){
+                $('p').after("<b>hi</b>")
+            });
+            $("#be").click(function(){
+                $('p').before("<b>hi</b>")
+            });
+            });
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

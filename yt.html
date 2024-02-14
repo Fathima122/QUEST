@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="JS jslib.js"></script>
+</head>
+<body>
+    <button id="h">hide</button>
+    <button id="s">show</button>
+    <button id="t">toggle</button>
+    <button id="f">fade in</button>
+    <button id="f2">fade out</button>
+    <button id="f3">fade toggle</button>
+    <button id="f4">fade to</button>
+
+    <div id="d1" style="background-color: brown;height: 100px;width: 100px;"></div><br>
+    <div id="d2" style="background-color: brown;width: 100px;height: 100px;"></div><br>
+    <div id="d3" style="background-color: brown;width: 100px;height: 100px;"></div>
+    <script>
+        $(document).ready(function(){
+            $("#h").click(function(){
+                $("#d1").hide();
+                $("#d2").hide(5000);
+                $("#d3").hide('slow');
+            });
+            $("#s").click(function(){
+                $("#d1").show('slow');
+                $("#d2").show(5000);
+                $("#d3").show();
+
+            });
+            $("#t").click(function(){
+                $("#d1").toggle();
+                $("#d2").toggle();
+                $("#d3").toggle();
+
+            });
+
+            $("#f").click(function(){
+                $("#d1").fadeIn();
+                $("#d2").fadeIn(5000);
+                $("#d3").fadeIn();
+
+            });
+
+            $("#f2").click(function(){
+                $("#d1").fadeOut(4000);
+                $("#d2").fadeOut();
+                $("#d3").fadeOut();
+
+            });
+            $("#f3").click(function(){
+                $("#d1").fadeToggle();
+                $("#d2").fadeToggle(5000);
+                $("#d3").fadeToggle();
+
+            });
+            $("#f4").click(function(){
+                $("#d1").fadeTo('slow',0.1);
+                $("#d2").fadeTo('slow',0.5);
+                $("#d3").fadeTo('slow',1.3);
+
+            });
+
+        });
+    </script>
+</body>
+</html>

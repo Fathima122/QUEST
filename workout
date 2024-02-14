@@ -1,0 +1,1001 @@
+# a=1
+# while a<=5:
+#     print(a)
+#     a+=1
+
+# a=int(input('enter no'))
+# s=0 #sum of no.s up to 10
+# while a<=10:
+#     s=s+a
+#     # a+=1
+#     print(s)
+#     a+=1 
+
+
+# a=1
+# while a<=5:
+#     print('hello')
+#     a+=1
+
+
+# a=int(input('enter a no'))  
+# a=a%10
+   
+# print(a)       
+       
+# num=1
+# sum=0 #sum of 10 numbers
+# while num<=10:
+#     sum=sum+num
+#     num+=1
+# print(sum)  
+
+# num=1
+# sum=0 #sum of 30 no.s
+# while num<=30:
+#     sum=sum+num
+#     print(num)
+#     print(sum)
+#     num+=1
+
+# first=10
+# last=30
+# while first<last:
+#     print(first)
+#     first+=1
+
+# first=10
+# last=30
+# sum=0 #sum of 10 to 30 no.s
+# while first<last:
+#     sum=first+sum
+#     print(first)
+#     print(sum)
+#     first+=1
+
+
+# a=int(input('enter no'))
+# count=0
+# while a>0:
+#      a%10
+#      a=a//10
+#      count+=1
+# print(count)    
+
+
+# a=int(input('enter no'))
+# sum=0#sum of digits
+# while a>0:
+#     sum=a%10+sum
+#     a=a//10
+# print(sum)
+
+
+# a=int(input('enter no'))
+# rev=0
+# m=a
+
+# while a>0:
+#     b=a%10
+#     a=a//10
+#     rev=rev*10+b
+    
+# print(rev)
+
+# if rev==m:
+#     print('a is palimdrome')
+# else:
+#     print('a is not palimdrome')    
+# a=253
+# while a>0:
+#     a%10
+#     print(a)
+#     a=a//10
+# print(a)
+
+
+# a=5
+# a=a//10
+# print(a)
+
+# a=int(input('enter no'))
+# sum=0
+# while a>0:
+#     r=a%10
+#     a=a//10
+#     sum=sum+r*r
+
+# print(sum) 
+
+
+# a=int(input('enter a no'))
+# u=a
+# sum=0
+# count=3
+# while a>0:
+#     rem=a%10
+#     a=a//10
+#     sum=sum+rem**count
+# print(sum)  
+
+# if sum==u:
+#     print('no.is amstrong')
+# else:
+#     print('no. is not amstrong')    
+
+# a=int(input('enter no.'))
+# u=a
+# count=0
+# while a>0:
+#     a%10
+#     count+=1
+#     a=a//10
+# print(count) 
+# count<=4 
+# while 
+#     a%10
+#     a=a//10
+
+
+
+# a=int(input('enter a no'))
+# sum=0
+# while a>0:
+#     rem=a%10
+#     a=a//10
+#     sum=sum+rem
+# print(sum)
+
+# num=int(input('enter a no'))
+# rev=0
+# dupli=num
+# while num>0:
+#     rem=num%10
+#     num=num//10
+#     rev=rev*10+rem
+# print(rev) 
+
+# if dupli==rev:
+#     print('no is palindrome')
+# else:
+#     print('no is not palindrome')    
+
+
+# nu
+# m=int(input('enter a no.'))
+# sum=0
+# while num>0:
+#     rem=num%10
+#     num=num//10
+#     sum=sum+rem*rem
+# print(sum)    
+
+# a=0
+# b=1
+# num=int(input('enter a no.'))
+
+
+# while a<num:
+#     print(a)
+
+#     c=a+b
+#     a=b
+#     b=c
+
+
+# a=1
+# while a<5:
+#     if a==4:
+#      break
+#     a+=1   
+
+
+
+# a=int(input('enter a no.'))
+# temp=a
+# count=0
+# while temp>0:
+#     temp%10
+#     temp=temp//10
+#     count+=1
+# temp=a
+# sum=0
+# while temp>0:
+#     rem=temp%10
+#     x=1
+#     pro=1
+#     while x<=count:
+#         pro=pro*rem
+#         x+=1
+#     sum=sum+pro
+#     temp=temp//10
+# if sum==a:
+#     print('palindrome')
+# else:
+#     print('not palindrome')
+
+
+# a='wwmlvjovl bdifkdknndb'
+# a=a.title()
+# a=a.split()
+# # print(a)
+# for i in a:
+#     output=i[:-1]+i[-1].upper()
+#     print(output,end=' ')
+
+# a=5
+# for i in range(a):
+#     for j in range(i+1):
+#         print('*',end='  ')
+#     print()
+
+# a=5
+# for i in range(a):
+#     for j in range(a-i):
+#         print('*',end=' ')
+#     print()
+
+
+# a=5
+# for i in range(a):
+#     for j in range(a-i-1):
+#         print(' ',end=' ')
+#     for j in range(i+1):
+#         print('*',end=' ')
+#     print()
+
+# a=5
+# for i in range(a):
+#     for j in range(i):
+#         print(' ',end='  ')
+#     for j in range(a-i):
+#         print('*',end='  ')
+#     print()
+
+
+# n=5
+# m=1
+# for i in range(n):
+#     for j in range(i+1):
+#         print(m,end=' ')
+#     m+=1
+#     print()
+
+# n=5
+
+# for i in range(5):
+#     p=1
+#     for j in range(i+1):
+#         print(p,end=' ')
+#         p+=1
+#     print()
+
+# n=5
+# m=1
+
+# for i in range(n):
+#     for j in range(n-i):
+#         print(m,end='')
+#     m+=1
+#     print()
+
+# a=5
+# for i in range(a):
+#     m=5
+#     for j in range(a-i):
+#         print(m,end=' ')
+#     print()
+
+# a=6
+# for i in range(a):
+#     p=0
+#     for j in range(a-i):
+#         print(p,end=' ')
+#         p+=1
+#     print()
+
+# a=5
+# m=1
+
+# for i in range(a):
+#     for j in range(i+1):
+#         print(m,end=' ')
+#     m+=2
+#     print()
+
+# a=5
+# m=5
+# for i in range(a):
+
+#     for j in range(a-i):
+#         print(m,end=' ')
+#     m-=1
+#     print()
+
+# a=5
+# for i in range(a):
+#     m=1
+#     for j in range(i):
+#         print(' ',end=' ')
+#     for j in range(a-i):
+#         print(m,end=' ')
+#         m+=1
+#     print()
+
+# a=5
+
+# for i in range(a):
+#     m=5
+#     for j in range(i):
+#         print(' ',end=' ')
+#     for j in range(a-i):
+#         print(m,end=' ')
+#         m-=1
+#     print()
+
+# a=5
+
+# for i in range(a):
+#     m=5
+#     for j in range(i+1):
+#         print(m,end=' ')
+#         m-=1
+#     print()
+
+# a=5
+# for i in range(a):
+#     for j in range(i+1):
+#         if i%2==0:
+#             print(1,end=' ')
+#         else:
+#             print(2,end=' ')
+#     print()
+
+# a=5
+# m=0
+# for i in range(a):
+#     for j in range(i+1):
+#         print(m,end=' ')
+#     m+=2
+#     print()
+
+# a=input('enter a string')
+# l=len(a)
+# if len(a)<2:
+#     print(a)
+# else:
+#     output=a[:2]+a[-2:]
+# print(output)
+
+# a=input('enter a string')
+# countv=0
+# for i in a:
+#     if i in 'aeiouAEIOU':
+#         countv+=1
+# print(countv)
+
+# b=input('enter a string')
+# b=b.lower()
+# a=e=i=o=u=False
+
+# for i in b:
+#     if i=='a':
+#         a=True
+#     if i=='e':
+#         e=True
+#     if i=='i':
+#         i=True
+#     if i=='o':
+#         o=True
+#     if i=='u':
+#         u=True
+# if a and e and i and o and u:
+#     print('all vowels')
+# else:
+#     print('the string has no vowels')
+
+a=int(input('enter a no'))
+sum=0
+# pro=1
+while a>0:
+    rem=a%10
+    sum=sum+rem
+    # pro=pro*rem
+    a=a//10
+print(sum)
+# # print(pro)
+# if sum==pro:
+#     print('s')
+# else:
+#     print('no')
+
+
+# list
+
+# a=[1,2,3,'hai',True,'%']
+# # print(a)
+# # # print(type(a))
+# # # print(len(a))
+# # b=len(a)
+# # print(a[len(a)-1])
+# # a=len(a)
+# # print(a)
+# # print(a-1)
+
+# # print(a[0])
+# c=['python',2,3]
+# # print(c)
+# # c[1]='b'
+# # print(c)
+
+# for i in c:
+#     print(c)
+
+# for i in range(len(c)):
+#     print(c[i])
+
+
+
+# a=[1,2,3,4,5,6,]
+# print(a[1:2])
+# print(a[2:-1])
+# print(a[1:-2:2])
+
+# print(a[-4:-1])
+# print(a[-5:-1:2])
+# print(a[::-1])
+# l=len(a)
+# print(l)
+# print(min(a))
+# print(max(a))
+
+# b=['ammu','fai','fitha','ghee','jkko']
+# # b[2]='fitha fath'
+# # print(b)
+# # b[1]='jkjso'
+# # print(b)
+# # b.append('dgdj')
+# # print(b)
+# b.insert(9,'fhj')
+# print(b)
+# print(b[2])
+# b[2]='harrt'
+# print(b)
+# b.append('fnjfk')
+# print(b)
+# a=[]
+# for i in range(10):
+#     b=input('enter elements')
+#     print(a.insert(i,b))
+# print(a)
+
+
+# a=[]
+# size=int(input('enter size of the list:'))
+# for  i in range(size):
+#     b=int(input('enter no'))
+#     a.append(b)
+#     print(a)
+# i=0
+# j=size-1
+# while(i<j):
+#     t=a[i]
+#     a[i]=a[j]
+#     a[j]=t
+#     i+=1
+#     j-=1
+# print('the reversed list=')
+# for i in range(size):
+#     print(a[i])
+
+
+# a=[]
+# size=int(input('enter size of list:'))
+# for i in range(size):
+#     val=int(input('enter elements'))
+#     a.append(val)
+# max=a[0]
+# for i in range(size):
+#     if a[i]>max:
+#         max=a[i]
+# print('max element is',max)
+
+
+# a=[]
+# size=int(input('enter size:'))
+# for i in range(size):
+#     val=int(input('enter elements'))
+#     a.insert(i,val)
+# min=a[0]
+# for i in range(size):
+#     if a[i]<min:
+#         min=a[i]
+# print('minimum element is',min)
+
+
+
+
+# a=[]
+# for i in range(10):
+#     val=int(input('enter no'))
+#     a.append(val)
+#     print(a)
+
+# a=[]
+# size=int(input('enter size of list:'))
+# for i in range(size):
+#     a.append(input('enter elements'))
+# i=0
+# j=size-1
+# while(i<j):
+#     t=a[i]
+#     a[i]=a[j]
+#     a[j]=t
+#     i+=1
+#     j-=1
+# print('the reversed list is',a)
+
+# a=[1,2,3,4]
+# a=[]
+# size=int(input('enter size of list:'))
+# for i in range(size):
+#     a.append(int(input('enter elements')))
+# sum=0
+# for i in range(size):
+#     sum=sum+a[i]
+# print(sum)
+
+
+# a=[]
+# size=int(input('enter size of list:'))
+# for i in range(size):
+#     a.append(int(input('enter elements')))
+# b=[]
+# size1=int(input('enter size of list:'))
+# c=[]
+# for i in range(size1):
+#     b.append(int(input('enter elements')))
+# if size==size1:
+#     for i in range(size):
+#         sum=a[i]+b[i]
+#         c.append(sum)
+# print(c)
+
+
+
+# a=[]
+# size=int(input('enter size of list:'))
+# for i in range(size):
+#     val=int(input('enter elements'))
+#     a.append(val)
+# countv=0
+# counto=0
+# for i in range(size):
+#     if a[i]%2==0:
+#         countv+=1
+#     else:
+#         counto+=1
+    
+# print('no of even mo.s is',countv)
+# print('no. of odd no.s is',counto)
+
+# a=[]
+# size=int(input('enter size of list:'))
+# for i in range(size):
+#     val=int(input('enter elements'))
+#     a.append(val)
+# sum=0
+# pro=1
+# for i in range(size):
+#     if(a[i]%2==0):
+#         sum=sum+a[i]
+#     else:
+#         pro=pro*a[i]
+# print('sum of even nos is',sum)
+# print('product of odd nos is',pro) 
+
+# a=[1,4,8,2,9]
+# max=a[0]
+# for i in range(5):
+#     if a[i]>a[0]:
+#         max=a[i]
+# print(max)
+
+
+# a=[]
+# size=int(input('enter size of list:'))
+# for i in range(size):
+#     val=int(input('enter elements'))
+#     a.append(val)
+# for i in range(size):
+#     for j in range(i+1,size):
+#         if a[i]>a[j]:
+#             temp=a[i]
+#             a[i]=a[j]
+#             a[j]=temp
+#         print(a)
+
+
+# a=[]
+# size=int(input('enter size of list:'))
+# for i in range(size):
+#     val=int(input('enter elements'))
+#     a.append(val)
+# key=int(input('enter element'))
+# for i in range(size):
+#     if a[i]==key:
+#         p=i+1
+#         print('element found',p)
+#         break
+# else:
+#     print('not found')
+
+
+# a=[]
+# size=int(input('enter size of list:'))
+# for i in range(size):
+#     val=int(input('enter elements'))
+#     a.append(val)
+# b=[]
+# size1=int(input('enter size of list:'))
+# for i in range(size1):
+#     val=int(input('enter elements'))
+#     b.append(val)
+# if size!=size1:
+#     print('arrays are different')
+# else:
+#     for i in range(size):
+#         if a[i]!=b[i]:
+#             print('ARRAYS ARE DIFFERENT')
+#             break
+#     else:
+#         print('arrays are samne')
+
+
+
+# insert an element at a given position in list
+
+# a=[5,10,15,20,25]
+# del a[3:9]
+# print( a)
+# # a.insert(200,200)
+# print(a)
+
+# a=[]
+# size=int(input('enter size of list;'))
+# for i in range(size):
+#     val=int(input('enter value'))
+#     a.append(val)
+# ele=int(input('enter no'))
+# ind=int(input('enter index postn'))
+# new=a[:ind]+[ele]+a[ind:]
+# print(new)
+
+# insert an element at a given position in list
+
+
+# a=[]
+# size=int(input('enter size of list;'))
+# for i in range(size):
+#     val=int(input('enter value'))
+#     a.append(val)
+# key=int(input('enter element'))
+# flag=0
+# for i in range(size):
+#     if a[i]==key:
+#         flag=1
+#         postn=i
+# if flag==0:
+#     print('element not found')
+# else:
+#     for i in range(postn,size-1):
+#         a[i]=a[i+1]
+# a.pop()
+# print('list after deletion',a)
+
+
+
+
+#  --------------------------------------------------functns---------------------------------------------------------
+
+# def message():
+#     print('hello python')
+# message()
+# message()
+# message()
+
+# def add():
+#     a=int(input('enter first no'))
+#     b=int(input('enter second no'))
+#     c=a+b
+#     print('addition=',c)
+# add()
+# add()
+
+
+# def add(a,b):
+#     c=a+b
+#     print('addition=',c)
+# a=int(input('enter first no'))
+# b=int(input('enter second no'))
+# add(a,b)
+# add(5,6)
+# add(1,3)
+          
+
+# def add():
+#     a=int(input('enter first no'))
+#     b=int(input('enter secnd no'))
+#     c=a+b
+#     print(c)
+# add()
+
+# def add(a,b):
+#     c=a+b
+#     print(c)
+# d=int(input('enter first no'))
+# e=int(input('enter first no'))
+# add(d,e)
+
+
+
+# def oddeven():
+#     a=int(input('no.to check'))
+#     if a%2==0:
+#         print('even no')
+#     else:
+#         print('odd')
+# oddeven()
+
+# def oddeven(a):
+#     if a%2==0:
+#         print('even no')
+#     else:
+#         print('odd no')
+# x=int(input('enter no. to check'))
+# oddeven(x)
+
+# def add(a,b):
+#     c=a+b
+#     return c
+# a=int(input('enter frst no'))
+# b=int(input('enter secnd no'))
+# z=add(a,b)
+# print(z)
+
+# def add():
+#     a=int(input('enter frst no'))
+#     b=int(input('enter secnd no'))
+#     c=a+b
+#     return c
+# add()
+# print(sum)
+
+
+# def add(a,b):
+#     # a=int(input('enter frst no'))
+#     # b=int(input('enter secnt no'))
+#     c=a+b
+#     return c
+#     # print(c)
+# x=int(input('enter frst no'))
+# y=int(input('enter secnd no'))
+# z=add(x,y)
+# print(z)
+
+# def add(a,b,c=6):
+#     print(a+b+c)
+# add(2,3,4)
+# add(5,6)
+
+ 
+
+
+
+
+
+#                                                       TUPLE
+
+# tuple=()
+# print(tuple)
+
+# tuple1=tuple()
+# print(tuple1)`1222222212qw    sXz`
+
+# t1=tuple('hello')
+# print(t1)
+
+# t1=tuple([1,2,3,4])
+# print(t1)
+
+# t1=tuple({1:6,8:0})
+# print(t1)
+
+# t1=tuple({6,8,9})
+# print(t1)
+
+# tuple=(1,2,3,4)
+# for i in tuple:
+#     print(i)
+
+# for i in range(len(tuple)):
+#     print(tuple[i])
+
+
+# t1=(1,2,3,4,5)
+# t2=(6,7,8)
+# t3=t1+t2
+# print(t3)
+
+# t1=(1,2,3)
+# t2=t1*3
+# print(t2)
+
+# t1=(10,11,12,13,14,15,13)
+# print(len(t1))
+# print(max(t1))
+# print(min(t1))
+# print(t1.index(13))
+# print(t1.count(13))
+
+
+# t2=t1[-5:-6:2]
+# print(t2)
+
+
+
+
+# # ::::::::::::::::::::::::::::////////*args and **kwargs\\\\\\\\\::::::::::::::::::::::::::::::::::::::::::::::::
+# def add(*data):
+#     c=0
+#     for i in data:
+#         c=c+i
+#     print('sum',c)
+# add(1,2)
+# add(6,5,6)
+# add(1,2,3,4,56,8)
+
+# def info_person(**data):
+#     for key,values in data.items():
+#         print(key,values)
+# info_person(name='ram',age=35,dept='cse')
+# info_person(name='shyam',dept='cse')
+
+
+
+# def multiply(*data):
+#     c=1
+#     for i in data:
+#         c=c*i
+#     print(c)
+
+
+# multiply(2,3,-6,8)
+# multiply(2,5,8,9,0,6)
+
+# #`````````````````````````````` recursion ````````````````````````````
+
+
+
+# def xyz():
+#     print('recursion')
+#     xyz()
+# xyz()
+
+
+# sum frm 1 to n
+
+
+# def sum(a):
+#     if a==1:
+#         return 1
+#     else:
+#         return (a+sum(a-1))
+    
+# n=int(input('enter no'))
+# z=sum(n)
+# print(z)
+
+
+# a='hai'
+# rev=''
+# for i in a:
+#     rev=i+rev
+#     print(rev)
+
+# def xyz(a,n):
+#     if n == 0:
+#         print(a[0])
+#     else:
+#         print(a[n],end='')
+#         xyz(a,n-1)
+        
+# s=input('enter string')
+# xyz(s,len(s)-1)
+
+
+# def findpower(x,y):
+#     if y==0:
+#         return 1
+#     else:
+#         return (x*findpower(x,y-1))
+# x=int(input('enter base'))
+# y=int(input('enter exponent'))
+# z=findpower(x,y)
+# print(z)
+
+
+
+# def fact(n):
+#     if n==1:
+#         return 1
+#     else:
+#         return (n*fact(n-1))
+    
+# n=int(input('enter number'))
+# z=fact(n)
+# print(z)
+
+
+# def feb(i):
+#     if i==1:
+#         return 0
+#     if i==2:
+#         return 1
+#     return feb(i-1)+feb(i-2)
+
+# n=int(input('enter no. of terms'))
+# for i in  range(1,n+1):
+#     print(feb(i))
+
+# def sum(a):
+#     if a==1:
+#         return 1
+#     else:
+#         return a+sum(a-1)
+
+# z=sum(10)
+# print(z)
+
+
+# def sum(a):
+#     if a==0:
+#         return 0
+#     else:
+#         return a%10 +sum(a//10)
+    
+
+# a=int(input('enter no'))
+# z=sum(a)
+# print(z)
+
+
+# user_data={}
+
+# def register():
+#     username=input('enter username')
+#     passwrd=input('enter passwrd')
+#     user_data[username]=passwrd
+#     print('reg succesful')
+
+# def login():
+#     username=input('enter username')
+#     passwrd=input('enter passwrd')
+#     if username in user_data and user_data[username]==passwrd:
+#         print('login successful')
+#     else:
+#         print('check ur usernme and passrd')
+# while True:
+#     choice=(input('''enter choice:1-register
+#                      2-login
+#                      3-exit'''))
+#     if choice=='1':
+#         register()
+#     elif choice=='2':
+#         login()
+#     elif choice=='3':
+#         print('exit')
+#         break
+#     else:
+#         print('invalid choice')
+
